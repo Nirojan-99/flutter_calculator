@@ -1,4 +1,4 @@
-# dummy_app
+# calculator app
 
 A new Flutter project.
 
