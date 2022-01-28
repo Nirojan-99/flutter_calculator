@@ -12,7 +12,7 @@ class Display extends StatelessWidget {
         padding: EdgeInsets.all(15),
         child: Text(
           value,
-          style: TextStyle(
+          style: const TextStyle(
               fontWeight: FontWeight.bold, fontSize: 30, color: Colors.orange),
         ));
   }

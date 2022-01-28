@@ -17,7 +17,7 @@ class Symbols extends StatelessWidget {
               primary: Colors.orange,
               onSurface: Colors.orange,
               elevation: 0,
-              backgroundColor:isPressed? Colors.orange:Colors.grey),
+              backgroundColor: isPressed ? Colors.orange : Colors.grey),
           onPressed: isPressed ? () => {pressSymbols(value)} : null,
           child: Text(
             value,

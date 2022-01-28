@@ -129,7 +129,7 @@ class _MyAppState extends State<MyApp> {
         enteredNum = "";
         AC = "AC";
       } else if (number == "BS") {
-        // value.length > 0 ? value.length -= 1 : value.length = 0;
+        // have to code
 
       } else if (number == "=") {
         value.add(enteredNum);
@@ -146,7 +146,6 @@ class _MyAppState extends State<MyApp> {
         cal(value);
         total = value[0] + "%";
       } else {
-        //else part
         if (enteredNum.length > 0) {
           if (number == "+" ||
               number == "-" ||
@@ -177,10 +176,6 @@ class _MyAppState extends State<MyApp> {
       }
     });
 
-    // total = "";
-    // for (String i in value) {
-    //   total += i;
-    // }
     if (!value.isEmpty) {
       AC = "C";
     }
@@ -210,11 +205,6 @@ class _MyAppState extends State<MyApp> {
                   width: double.infinity,
                   child: Column(
                     children: <Widget>[
-                      // NumbersRow(AC, "BS", "%", "/", addValue),
-                      // NumbersRow("7", "8", "9", "*", addValue),
-                      // NumbersRow("4", "5", "6", "-", addValue),
-                      // NumbersRow("1", "2", "3", "+", addValue),
-                      // NumbersRow("", "0", ".", "=", addValue),
                       Container(
                         margin: EdgeInsets.all(15),
                         child: Row(
